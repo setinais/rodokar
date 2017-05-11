@@ -64,7 +64,6 @@
 		$configs->env->production->menu->setMenus([
 			'Home/home' => '%siteURL%',
 			'Sobre/user' => '%siteURL%/index/sobre/',
-			'Endereço/building' => '%siteURL%/index/endereco/',
 			'Contatos/phone' => '%siteURL%/index/contato/'
 		]);
 		
@@ -72,7 +71,8 @@
 			'from' => 'RODOKAR',
 			'from_mail' => 'no-replay@rodokar.com.br'
 		]);
-	
+		$configs->env->production->auth->setURLs('/rodokar/home/', '/rodokar/login/');
+		$configs->env->production->auth->setURLs('/rodokar/admin/home/', '/rodokar/admin/login/', 'admin');
 
 
 	return $configs;
