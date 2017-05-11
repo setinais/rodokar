@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Bruno C. Santos">
+	<meta name="generator" content="HXPHP Framework">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title><?php echo $view_title; ?></title>
+	<link rel="shortcut icon" href="<?php echo IMG; ?>favicon.jpg" type="image/x-icon">
+	<link rel="stylesheet" href="<?php echo BOWER; ?>bootstrap/dist/css/bootstrap.min.css" type="text/css"/>
+	<link rel="stylesheet" href="<?php echo BOWER; ?>font-awesome/css/font-awesome.min.css" type="text/css"/>
+	<link rel="stylesheet" href="<?php echo CSS; ?>main.css" type="text/css">
+	<?php 
+		echo $add_css;
+		echo $add_js;
+	?>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class=" cabecalho col-md-10 col-md-offset-1">
+					<div class=" menu margin"> 
+						<div class="col-md-3 col-lg-3 col-xs-3">
+							<a href="<?=BASE?>">
+								<img src="<?=IMG?>rodokar.png" alt="RODOKAR TACOGRAFO" height="70%" width="70%"/>
+							</a>
+						</div>
+						<div class="col-md-8 col-md-offset-1">
+							<?php echo (isset($this->menu) ? $this->menu : ''); ?>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="corpomeio col-md-12 col-xs-12 col-lg-12">
