@@ -14,9 +14,9 @@
 
 		$configs->env->development->database->setConnectionData([
 			'driver' => 'mysql',
-			'host' => 'localhost',
-			'user' => 'root',
-			'password' => '',
+			'host' => 'rodokar.mysql.uhserver.com',
+			'user' => 'rodokar',
+			'password' => '0V2m56gtf@',
 			'dbname' => 'rodokar',
 			'charset' => 'utf8'
 		]);

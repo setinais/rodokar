@@ -23,7 +23,7 @@ class IndexController extends \HXPHP\System\Controller
 		$post = $this->request->post();
 		$atributes = null;
 		$atributes['nome'] = $post['name'];
-		$atributes['e-mail'] = $post['email'];
+		$atributes['email'] = $post['email'];
 		$atributes['telefone'] = $post['phone'];
 		$atributes['recado'] = $post['message'];
 
