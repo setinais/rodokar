@@ -1,25 +1,83 @@
-	<div class="col-md-4">
-		<div class="panel panel-info">
-			<div class="panel-heading">
-				<h3 class="panel-title">Contato</h3>
-			</div>
-			<div class="panel-body">
-				<address>
-					<strong>Rodokar</strong><br>
-					Av 8 - Setor Vila Milena<br>
-					Paraiso do Tocantins, TO<br>
-					<abbr title="Phone">Telefone: </abbr> (63) 3602-1934
-				</address>
+					
+		<div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Contato
+                    <small>Subheading</small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li class="active">Contato</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
 
-				<address>
-					<strong>E-mail</strong><br>
-					<a href="mailto:#">rodokar@rodokar.com.br</a>
-				</address>
-			</div>
-		</div>
-	</div>
-	<div class="col-md-7 col-xs-6">
-		<iframe width="560" height="420" frameborder="0" style="border:0"
-		src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCJQ8CKVkekNoSSrTHRBsOhKACNT4mPv5o&q=RODOKAR+Tacográfo,Paraiso+do+Tocantins+Brasil" allowfullscreen>
-		</iframe>
+        <!-- Content Row -->
+        <div class="row">
+            <!-- Map Column -->
+            <div class="col-md-8">
+                <!-- Embedded Google Map -->
+                <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCJQ8CKVkekNoSSrTHRBsOhKACNT4mPv5o&q=RODOKAR+Tacográfo,Paraiso+do+Tocantins+Brasil"></iframe>
+            </div>
+            <!-- Contact Details Column -->
+            <div class="col-md-4">
+                <h3>Contato Detalhes</h3>
+                <p>
+                    Av 8 - Setor Vila Milena<br>Paraiso do Tocantins, TO CEP 77600-000<br>
+                </p>
+                <p><i class="fa fa-phone"></i> 
+                    <abbr title="Phone">P</abbr>:  (63) 3602-1934</p>
+                <p><i class="fa fa-envelope-o"></i> 
+                    <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">rodokar@rodokar.com.br</a>
+                </p>
+                <p><i class="fa fa-clock-o"></i> 
+                    <abbr title="Hours">H</abbr>: Segunda - Sexta: 8:00 até 18:00 <br> Sabado: 8:00 até 12:00</p>
+                
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Contact Form -->
+        <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+        <div class="row">
+            <div class="col-md-8">
+                <h3>Enviar Mensagem</h3>
+                <form name="sentMessage" id="contactForm" novalidate>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Nome Completo:</label>
+                            <input type="text" class="form-control" id="name" required data-validation-required-message="Por favor insira seu nome.">
+                            <p class="help-block"></p>
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Telefone:</label>
+                            <input type="tel" class="form-control" id="phone" required data-validation-required-message="Por favor insira seu telefone.">
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Email:</label>
+                            <input type="email" class="form-control" id="email" required data-validation-required-message="Por favor insira seu email.">
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Menssagem:</label>
+                            <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Por favor insira sua menssagem" maxlength="999" style="resize:none"></textarea>
+                        </div>
+                    </div>
+                    <input type="text" class="form-control" id="email" value="<?=BASE?>" style="display: none;">
+                    <div id="success"></div>
+                    <!-- For success/fail messages -->
+                    <button type="submit" class="btn btn-primary">Enviar Menssagem</button>
+                </form>
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <hr>
 	</div>
