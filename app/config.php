@@ -26,7 +26,7 @@
 			'from_mail' => 'no-replay@rodokar.com.br'
 		]);
 
-		$configs->env->development->menu->setConfigs([
+		/*$configs->env->development->menu->setConfigs([
 			'container' => 'nav',
 			'container_class' => 'navbar navbar-default',
 			'menu_class' => 'nav navbar-nav'
@@ -36,7 +36,7 @@
 			'Home/home' => '%siteURL%',
 			'Sobre/user' => '%siteURL%/index/sobre/',
 			'Contatos/phone' => '%siteURL%/index/contato/'
-		]);
+		]);*/
 
 		$configs->env->development->auth->setURLs('/rodokar/home/', '/rodokar/login/');
 		$configs->env->development->auth->setURLs('/rodokar/admin/home/', '/rodokar/admin/login/', 'admin');
@@ -55,7 +55,7 @@
 			'charset' => 'utf8'
 		]);
 
-		$configs->env->production->menu->setConfigs([
+		/*$configs->env->production->menu->setConfigs([
 			'container' => 'nav',
 			'container_class' => 'navbar navbar-default',
 			'menu_class' => 'nav navbar-nav'
@@ -65,7 +65,7 @@
 			'Home/home' => '%siteURL%',
 			'Sobre/user' => '%siteURL%/index/sobre/',
 			'Contatos/phone' => '%siteURL%/index/contato/'
-		]);
+		]);*/
 		
 		$configs->env->production->mail->setFrom([
 			'from' => 'RODOKAR',
