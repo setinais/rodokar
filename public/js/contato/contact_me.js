@@ -24,7 +24,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: urlsite+"/index/messagem",
+                url: urlsite+"index/messagem",
                 type: "POST",
                 data: {
                     name: name,
@@ -33,8 +33,9 @@ $(function() {
                     message: message
                 },
                 cache: false,
-                success: function() {
+                success: function(res) {
                     // Success message
+                    $("#test").html(res);
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
