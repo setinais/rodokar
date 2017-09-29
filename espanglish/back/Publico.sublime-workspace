@@ -1,0 +1,444 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"res",
+				"result"
+			],
+			[
+				"wi",
+				"window"
+			],
+			[
+				"aja",
+				"ajax	$.ajax()"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"id",
+				"id_do_logado"
+			],
+			[
+				"lo",
+				"location"
+			],
+			[
+				"range",
+				"range_2"
+			],
+			[
+				"ajax",
+				"ajaxsuccess	$.ajaxSuccess()"
+			],
+			[
+				"session_d",
+				"session_destroy"
+			],
+			[
+				"va",
+				"var_dump"
+			],
+			[
+				"session",
+				"session_start"
+			],
+			[
+				"test",
+				"testvalor"
+			],
+			[
+				"htm",
+				"html	.html()"
+			],
+			[
+				"Vo",
+				"VotarPalco"
+			],
+			[
+				"Vota",
+				"VotarBarraca"
+			],
+			[
+				"Votar",
+				"VotarDesfile"
+			],
+			[
+				"nome",
+				"nomepais"
+			],
+			[
+				"un",
+				"unset"
+			],
+			[
+				"boo",
+				"bottom"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"fo",
+				"foreach	foreach …"
+			],
+			[
+				"most",
+				"mostar"
+			],
+			[
+				"mos",
+				"mostar"
+			],
+			[
+				"html",
+				"html	.html()"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"val",
+				"valor"
+			],
+			[
+				"btn",
+				"btn_slide"
+			],
+			[
+				"rea",
+				"readonly"
+			],
+			[
+				"tes",
+				"testa"
+			],
+			[
+				"R",
+				"readonly"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"bol",
+				"bolder"
+			],
+			[
+				"cen",
+				"contextmenu	Attr"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"Err",
+				"ErroSenha"
+			],
+			[
+				"E",
+				"ErroNome"
+			],
+			[
+				"fun",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 342.0,
+		"last_filter": "list",
+		"selected_items":
+		[
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"set theme",
+				"Select Theme"
+			],
+			[
+				"set colo",
+				"Select Color Scheme"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"colo",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"colorS",
+				"ColorSchemeSelector: Select Color Scheme"
+			]
+		],
+		"width": 494.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/jheron/system/Bootstrap/database.php",
+		"/C/xampp/htdocs/hxphp/system/Controller.php",
+		"/C/xampp/htdocs/hxphp/public/css/style.css",
+		"/C/xampp/htdocs/hxphp/public/css/animate.css",
+		"/C/xampp/htdocs/jheron/system/Bootstrap/autoloader.php",
+		"/C/xampp/htdocs/jheron/system/Bootstrap/constants.php",
+		"/C/xampp/htdocs/jheron/app/controllers/PedidoController.php",
+		"/C/xampp/htdocs/hxphp/system/View.php",
+		"/C/Users/Vinnicyus/Downloads/Veiculo/build/classes/veiculo/Carro.class",
+		"/C/Users/Vinnicyus/Downloads/Veiculo/build/classes/veiculo/Veiculo.class",
+		"/C/Users/Vinnicyus/Downloads/Veiculo/build/classes/veiculo/Pessoa.class",
+		"/C/xampp/htdocs/hxphp/app/views/login/index.phtml",
+		"/C/xampp/htdocs/hxphp/system/Bootstrap/constants.php",
+		"/C/Users/Vinnicyus/Documents/IFixes/ifixes.html",
+		"/C/xampp/htdocs/ArquivosHxphp1.1/hxphp-master/app/controllers/IndexController.php",
+		"/C/xampp/htdocs/ArquivosHxphp1.1/hxphp-master/.htaccess",
+		"/C/xampp/htdocs/ArquivosHxphp1.1/hxphp-master/app/config.php",
+		"/C/xampp/htdocs/hxphp/app/controllers/IndexController.php",
+		"/C/xampp/htdocs/hxphp/app/views/Index.phtml",
+		"/C/xampp/htdocs/hxphp/.htaccess",
+		"/C/Users/Vinnicyus/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/xampp/htdocs/hxphp/as.xml",
+		"/C/xampp/htdocs/hxphp/sd.json",
+		"/C/xampp/htdocs/hxphp/index.php",
+		"/C/xampp/htdocs/hxphp/system/Modules/Auth/Auth.php",
+		"/C/xampp/htdocs/hxphp/app/views/Footer.phtml",
+		"/C/xampp/htdocs/hxphp/data/banco-de-dados.sql",
+		"/C/xampp/htdocs/index.php",
+		"/C/xampp/htdocs/ArquivosHxphp1.1/hxphp/system/App.php",
+		"/C/xampp/htdocs/ArquivosHxphp1.1/hxphp/.htaccess",
+		"/C/xampp/htdocs/ArquivosHxphp1.1/Container.sublime-snippet",
+		"/C/xampp/htdocs/back/Publico.php",
+		"/C/xampp/htdocs/sistema/EspanglishJurado/app/css/estilo.css",
+		"/C/xampp/htdocs/back/model/Barraca.php",
+		"/C/xampp/htdocs/sistema/EspanglishJurado/TelaBarraca.html",
+		"/C/xampp/htdocs/sistema/EspanglishJurado/index.html",
+		"/C/xampp/htdocs/sistema/EspanglishJurado/app/bootstrap/js/my_js.js",
+		"/C/xampp/htdocs/sistema/EspanglishJurado/TelaPrincipal.html",
+		"/C/xampp/htdocs/sistema/EspanglishJurado/TelaPalco.html",
+		"/C/xampp/htdocs/Espanglish/votar.html",
+		"/C/xampp/htdocs/back/model/Jurado.php",
+		"/C/xampp/htdocs/Espanglish/app/css/estilo.css",
+		"/C/xampp/htdocs/back/model/Paise.php",
+		"/C/xampp/htdocs/back/activerecord/LICENSE",
+		"/C/xampp/htdocs/back/model/Palco.php",
+		"/C/xampp/htdocs/back/model/Voto.php",
+		"/C/xampp/htdocs/Espanglish/Conexao.php",
+		"/C/xampp/htdocs/sistema/TIWEB/_php/selectanimal.php",
+		"/C/xampp/htdocs/sistema/TIWEB/index.html",
+		"/C/xampp/htdocs/sistema/EspanglishJurado/app/bootstrap/js/jquery.min.js",
+		"/C/xampp/htdocs/sistema/EspanglishJurado/TelaDesfile.html",
+		"/C/xampp/htdocs/Espanglish/index.html",
+		"/C/xampp/htdocs/sistema/TIWEB/cadastre-se.html",
+		"/C/xampp/htdocs/sistema/jquery/aula1j.html",
+		"/C/xampp/htdocs/sistema/TIWEB/_php/selectestado.php",
+		"/C/xampp/htdocs/sistema/TIWEB/_php/conexao.php",
+		"/C/xampp/htdocs/sistema/TIWEB/_js/mask.js",
+		"/C/xampp/htdocs/sistema/TIWEB/_js/global.js",
+		"/C/Users/Vinnicyus/AppData/Roaming/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/C/Users/Vinnicyus/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"nota_palco",
+			"readonly",
+			" <td><button",
+			"><button",
+			"<button",
+			"button",
+			"<td><button id=\"btn_slide\" type=\"button\" class=\"btn btn-default\">Alterar</button></td>",
+			"text",
+			"css",
+			"            ",
+			"Bandeir",
+			"div1",
+			"\">\n",
+			"')\n",
+			"active"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Publico.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 172.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

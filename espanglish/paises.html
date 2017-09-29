@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Espanglish - Países</title>
+    <link rel="shortcut icon" href="iconn.ico" >
+    <link rel="stylesheet" href="app/css/textos-formata.css"/>
+    <link rel="stylesheet" href="app/css/estilo.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="app/materialize/css/materialize.min.css"  media="screen,projection"/>
+
+    <script type="text/javascript">
+        var idnome = 'Africa';
+        var idbutton = 'bafrica';
+
+        function MenuTroca(id,nome){
+            $("#"+idnome).hide();
+            $("#"+idbutton).attr('class', 'btn espaco-button');
+            idbutton = id;
+            idnome = nome;
+            $("#"+id).attr("class","btn espaco-button");
+            $("#"+nome).show();
+        }
+    </script>
+    <style type="text/css">
+        body{
+            text-align: justify;
+        }
+        .espaco-button{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+<nav class="green accent-4">
+    <div class="nav-wrapper">
+        <a href="#" class="brand-logo center"><img src="logo.png" width="18%"></a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="left hide-on-med-and-down">
+            <li><a href="votar.html" type="button" style="width: 100%" >Votar</a></li>
+            <li><a href="index.html" type="button" style="width: 100%">Sobre</a></li>
+            <li class="active"><a href="paises.html" type="button" style="width: 100%">Países</a></li>
+
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+            <li><a href="votar.html" type="button" style="width: 100%" >Votar</a></li>
+            <li><a href="index.html" type="button" style="width: 100%">Sobre</a></li>
+            <li class="active"><a href="paises.html" type="button" style="width: 100%">Países</a></li>
+
+        </ul>
+    </div>
+</nav>
+<div class="row">
+
+    <div class="col s3 m2 l2 xl1" style="margin-top: 10%;">
+        <button class="btn espaco-button" id="bafrica" value="Africa" onclick="MenuTroca(this.id,this.value);"><span><img style="margin-top: 20%;" height="22px" width="32px" src="app/img/ÁfricadoSul.png"/></span> </button>
+
+        <button class="btn espaco-button" id="bbolivia" value="Bolivia" onclick="MenuTroca(this.id,this.value);"><span><img style="margin-top: 20%;" height="22px" width="32px" src="app/img/Bolívia.png"/></span> </button>
+
+        <button class="btn espaco-button" id="bjamaica" value="Jamaica" onclick="MenuTroca(this.id,this.value);"><span><img style="margin-top: 20%;" height="22px" width="32px" src="app/img/Jamaica.png"/></span> </button>
+
+        <button class="btn espaco-button" id="bespanha" value="Espanha" onclick="MenuTroca(this.id,this.value);"><span><img src="app/img/espanha.png_32x32.png"/></span> </button>
+
+        <button class="btn espaco-button" id="beua" value="EUA" onclick="MenuTroca(this.id,this.value);"><span><img src="app/img/eua.jpg_32x32.png"/></span> </button>
+
+        <button class="btn espaco-button" id="binglaterra" value="Inglaterra" onclick="MenuTroca(this.id,this.value);"><span><img src="app/img/images.png_32x32.png"/></span> </button>
+
+        <button class="btn espaco-button" id="bmexico" value="Mexico" onclick="MenuTroca(this.id,this.value);"><span><img style="margin-top: 20%;" height="22px" width="32px" src="app/img/México.png"/></span> </button>
+
+        <button class="btn espaco-button" id="bnovazelandia" value="NovaZelandia" onclick="MenuTroca(this.id,this.value);"><span><img style="margin-top: 20%;" height="22px" width="32px" src="app/img/NovaZelândia.png"/></span> </button>
+
+        <button class="btn espaco-button" id="bportorico" value="PortoRico" onclick="MenuTroca(this.id,this.value);"><span><img style="margin-top: 20%;" height="22px" width="32px" src="app/img/PortoRico.png"/></span> </button>
+        
+    </div>
+
+    <div class="col s9">
+        <div id="menu" style="margin-bottom:20px; margin-top:20px;margin-left: 1%;"></div>
+
+        <div id="Africa">
+            <div class="panel-default panel">
+                <div class="panel-heading center"><h3 class="panel-title"> África do Sul</h3></div>
+                <div class="panel-body">
+                    <img class="img-thumbnail" style="width: 25%" src="app/img/ÁfricadoSul.png"/>
+                    <p class="col-md-6 col-xs-8 ">África do Sul, oficialmente República da África do Sul, é um país localizado no extremo sul da África, entre os oceanos Atlântico e Índico, com 2 798 quilômetros de litoral.
+                    </p>
+                </div>
+            </div>
+
+            <div class="panel-info panel">
+                <div class="panel-heading center"><h2 class="panel-title"> DADOS PRINCIPAIS</h2></div>
+                <div class="panel-body">
+
+
+                    <p><label class="ptema">ÁREA:</label> 1.221.037 km²</p>
+                    <p><label class="ptema">CAPITAL:</label> Cidade do Cabo (legislativa), Bloemfontein (judiciária) e Pretória (administrativa)<p>
+                    <p><label class="ptema">POPULAÇÃO DA ARGENTINA:</label> 54,2 milhões de habitantes (estimativa 2016)</p>
+                    <p><label class="ptema">MOEDA:</label>  Rand</p>
+                    <p><label class="ptema">NOME OFICIAL:</label> República da África do Sul</p>
+                    <p><label class="ptema">NACIONALIDADE:</label> Sul africana</p>
+                    <p><label class="ptema">DATA NACIONAL:</label> 27 de abril (Dia da Liberdade) - primeiro dia de governo de Nelson Mandela</p>
+                    <p><label class="ptema">GOVERNO: </label> República Presidencialista</p>
+                    <p><label class="ptema">PRESIDENTE:</label> Jacob Zuma</p>
+
+                    <h5 class="center">GEOGRAFIA</h5>
+                    <p><label class="ptema">LOCALIZAÇÃO:</label> Sul do Continente Africano</p>
+                    <p><label class="ptema">FUSO HORÁRIO:</label>  + 5h</p>
+                    <p><label class="ptema">CLIMA:</label> tropical (maior parte), mediterrâneo (sul), árido tropical (norte), de montanha (oeste). </p>
+                    <p><label class="ptema">CIDADES DA ARGENTINA (PRINCIPAIS):</label> Cidade do Cabo, Durban, Johanesburgo, Pretória,Port Elizabeth, Bloemfontein, Polokwane , Nelspruit , Rustenburgo</p>
+                    <p><label class="ptema">Densidade Demográfica: </label>44,38 hab./km2 (estimativa 2016)</p>
+
+                    <h5 class="center">DADOS CULTURAIS E SOCIAIS:</h5>
+
+                    <p><label>Composição da População:</label> grupos étnicos autóctones 70% (zulus 20,5%, chosas 18%, pedis 9%, sotos 7%, tsuanas 6%, tsongas 3,5%, suazis 2%, nedebeles 2%, vendas 2%), europeus 12% (holandeses, alemães, franceses, ingleses), eurafricanos 13%, indianos 3%, outros 2%.</p>
+                    <p><label>Idioma:</label>  africâner, inglês, sepédi, sessoto, setsuana entre outros.</p>
+                    <p><label>Religião:</label>  cristianismo 66,4% (reformistas católicos, metodistas, anglicanos, luteranos), hinduísmo 1,3%, islamismo 1,1%, judaísmo 0,2%, sem filiação 1,2%, outras 29,8%.</p>
+                    <p><label>IDH:</label> 0,666 (Pnud 2014) - índice de desenvolvimento humano médio</p>
+                    <p><label>Coeficiente de Gini:</label> 57.8 (alto) dados do ano 2000</p>
+                    <p><label>Esperança de Vida:</label> 51,3 anos (estimativa 2015)</p>
+                    <p><label>Alfabetização:</label> 93,5% (ano de 2015)</p>
+                    <p><label>Índice de Mortalidade Infantil:</label> 40,5 por mil nascimentos (ano de 2015)</p>
+
+                    <h5 class="center">ECONOMIA</h5>
+
+                    <p><label>Produtos Agrícolas:</label> milho, cana-de-açúcar, uva, laranja e outras frutas.</p>
+                    <p><label>Pecuária:</label> bovinos, aves, caprinos e ovinos.</p>
+                    <p><label>Mineração:</label>  carvão, minério de ferro, petróleo, ouro e diamante.</p>
+                    <p><label>Indústria:</label> química, petroquímica, carvão, alimentícia, equipamentos de transporte, siderúrgica, máquinas, equipamentos agrícolas e metalúrgica.</p>
+                    <p><label>PIB (nominal):</label> US$ 317,3 bilhões (estimativa 2015)</p>
+                    <p><label>Renda per capita:</label> US$ 6.600 (estimativa 2015).</p>
+
+                </div>
+            </div>
+        </div>
+        <div id="Bolivia" style="display:none;">
+
+            <div class="panel-default panel">
+                <div class="panel-heading center"><h3 class="panel-title"> Bolívia</h3></div>
+                <div class="panel-body">
+                    <img class="img-thumbnail" style="width: 25%" src="app/img/Bolívia.png"/>
+                    <p class="col-md-6 col-xs-8 ">Centro-oeste da América do Sul. Faz fronteira com o Brasil ao norte e leste, Paraguai e Argentina ao sul, e Chile e Peru ao oeste.</p>
+                </div>
+            </div>
+
+            <div class="panel-info panel">
+                <div class="panel-heading center"><h2 class="panel-title"> DADOS PRINCIPAIS</h2></div>
+                <div class="panel-body">
+
+                    <p><label>Área:</label> 1.098.581 km²</p>
+                    <p><label>Capital:</label> La Paz (capital administrativa, sede do governo) e Sucre (constitucional, judicial)</p>
+                    <p><label>População:</label> 11,1 milhões de habitantes (estimativa 2016)</p>
+                    <p><label>Moeda:</label> boliviano </p>
+                    <p><label>Nome Oficial:</label>  Estado Plurinacional da Bolívia</p>
+                    <p><label>Nacionalidade:</label> boliviana</p>
+                    <p><label>Data Nacional:</label> 6 de agosto Dia da Independência.</p>
+                    <p><label>Divisão administrativa:</label> 9 departamentos</p>
+                    <p><label>Governo:</label> República Presidencialista</p>
+                    <p><label>Presidente da República:</label> Evo Morales (desde 22 de janeiro de 2006)</p>
+                    <h5 class="center">GEOGRAFIA:</h5>
+                    <p><label>Localização:</label> região centro-oeste da América do Sul</p>
+                    <p><label>Cidade Principais:</label> La Paz, Santa Cruz de la Sierra, Cochabamba, Alto e Oruro.</p>
+                    <p><label>Densidade Demográfica:</label> 9,83 hab./km2 (estimativa 2014)</p>
+                    <p><label>Fuso Horário:</label> - 1h</p>
+                    <p><label>Clima:</label> equatorial (na região amazônica) e de montanha (região da cordilheira dos Andes) </p>
+                    <h5 class="center">DADOS CULTURAIS E SOCIAIS:</h5>
+                    <p><label>Composição da População:</label> quíchuas 30%, aimarás 25%, eurameríndios 15%, descendentes de europeus ibéricos 15% e outros 15%.</p>
+                    <p><label>Idioma:</label> espanhol, aimará e quíchua (todos oficiais).</p>
+                    <p><label>Religião:</label> cristãos 98,8% (católicos 88,3%, protestantes 10,6%) e outras religiões 1,2%</p>
+                    <p><label>IDH:</label> 0,662 (Pnud 2014) - índice de desenvolvimento humano médio</p>
+
+                    <h5 class="center">ECONOMIA:</h5>
+                    <p><label>Produtos Agrícolas:</label>  cana-de-açúcar, soja, castanha, café e frutas</p>
+                    <p><label>Pecuária:</label> bovinos, suínos, caprinos, ovinos e aves.</p>
+                    <p><label>Mineração:</label>  gás natural, petróleo, zinco, estanho, prata e ouro.</p>
+                    <p><label>Indústria:</label> alimentos, refino de petróleo e bebidas.</p>
+                    <p><label>PIB (nominal):</label> US$ 33,54 bilhões (ano de 2015)</p>
+                    <p><label>PIB per capita:</label> US$ 3.100 (ano de 2015)</p>
+
+                </div>
+            </div>
+        </div>
+        <div id="Jamaica" style="display:none;">
+            <div class="panel-default panel">
+                <div class="panel-heading center"><h3> Jamaica</h3></div>
+                <div class="panel-body" style="">
+                    <img class="img-thumbnail" style="width: 25%" src="app/img/Jamaica.png"/>
+                    <p class="col-md-6 col-xs-8 ">
+                        A Jamaica é uma ex-colônia britânica, cuja independência foi obtida em 1962. Atualmente, o país integra a Comunidade Britânica (organização formada pelo Reino Unido e suas antigas colônias).</p>
+                </div></div>
+            <div class="panel-info panel">
+                <div class="panel-heading center"><h2 class="panel-title"> DADOS PRINCIPAIS</h2></div>
+                <div class="panel-body">
+                    <p><label>Área:</label> 10.991 km²</p>
+                    <p><label>Capital:</label> Kingston</p>
+                    <p><label>População:</label> 2,98 milhões de habitantes (estimativa 2014)</p>
+                    <p><label>Moeda:</label> dólar jamaicano </p>
+                    <p><label>Nome Oficial:</label>  Jamaica</p>
+                    <p><label>Nacionalidade:</label> jamaicana</p>
+                    <p><label>Data Nacional:</label> 6 de agosto - Dia da Independência.</p>
+                    <p><label>Governo:</label> Monarquia Constitucional</p>
+                    <h5 class="center">GEOGRAFIA</h5>
+                    <p><label>Localização:</label> Caribe - América Central</p>
+                    <p><label>Cidade Principais:</label> Kingston, Spanish Town, Portmore, Montego Bay e May Pen.</p>
+                    <p><label>Densidade Demográfica:</label> 271,1 hab./km2</p>
+                    <p><label>Fuso Horário:</label> - 2h</p>
+                    <p><label>Clima:</label> tropical</p>
+                    <h5 class="center">DADOS CULTURAIS E SOCIAIS</h5>
+                    <p><label>Composição da População:</label> afro-americanos 74%, eurafricanos 14%, indianos 1% e outros 11%.</p>
+                    <p><label>Idioma:</label>  inglês (oficial)</p>
+                    <p><label>Religião:</label> cristianismo 52,1%, rastas 4%, sem filiação e outras religiões 43,9%</p>
+                    <p><label>IDH:</label> 0,719 (Pnud 2014) - índice de desenvolvimento humano alto</p>
+                    <p><label>Esperança de vida:</label> 74,3 anos (estimativa 2014)</p>
+                    <p><label>Analfabetismo:</label> 20%</p>
+
+
+
+                    <h5 class="center">ECONOMIA</h5>
+                    <p><label>Produtos Agrícolas:</label>  cana-de-açúcar, banana, tabaco, café, laranja, limão, abacaxi e cacau.</p>
+                    <p><label>Pecuária:</label> bovinos, suínos, caprinos e aves.</p>
+                    <p><label>Mineração:</label> bauxita</p>
+                    <p><label>Indústria:</label> cimento, máquinas agrícolas, têxteis e bebidas.</p>
+                    <p><label>PIB:</label> US$ 24,5 bilhões (estimativa 2011)</p>
+                    <p><label>Renda per capita:</label>  US$ 9.000 (estimativa 2011).</p>
+
+                </div>
+            </div>
+        </div>
+        <div id="Espanha" style="display:none;">
+
+            <div class="panel-default panel">
+                <div class="panel-heading center"><h3 class="panel-title"> ESPANHA</h3></div>
+                <div class="panel-body">
+                    <img class="img-thumbnail" style="width: 25%" src="app/img/Espanha.png"/>
+                    <p class="col-md-6 col-xs-8 ">
+                        A Espanha ou Reino de Espanha é um país europeu localizado na Península Ibérica. Seu território limita-se com Portugal, a oeste; com o Mar Mediterrâneo, a leste e ao sul; e com a França e o oceano Atlântico, ao norte.</p></div></div>
+
+            <div class="panel-info panel">
+                <div class="panel-heading center"><h2 class="panel-title"> DADOS PRINCIPAIS</h2></div>
+                <div class="panel-body">
+
+                    <p><label class="ptema">ÁREA:</label> 505.954 km²</p>
+
+                    <p><label class="ptema">CAPITAL:</label> Madri</p>
+
+                    <p><label class="ptema">POPULAÇÃO:</label> 47,8 milhões de habitantes (estimativa 2016)</p>
+
+                    <p><label class="ptema">MOEDA:</label> Euro - EUR</p>
+
+                    <p><label class="ptema">NOME OFICIAL:</label> Reino da Espanha (Reino de España).</p>
+
+                    <p><label class="ptema">NACIONALIDADE:</label> espanhola</p>
+
+                    <p><label class="ptema">DATA NACIONAL:</label> 12 de outubro - Aniversário do Descobrimento da América.</p>
+
+                    <p><label class="ptema">GOVERNO:</label> Monarquia Parlamentarista</p>
+
+                    <p><label class="ptema">PRIMEIRO-MINISTRO:</label> Mariano Rajoy (desde 21 de dezembro de 2011)</p>
+
+                    <p><label class="ptema">DIVISÃO ADMINISTRATIVA:</label> 17 comunidades autônomas</p>
+
+
+                    <p><label class="ptema">LOCALIZAÇÃO:</label> sudoeste da Europa</p>
+
+                    <p><label class="ptema">FUSO HORÁRIO:</label> +4h em relação à Brasília</p>
+
+                    <p><label class="ptema">CLIMA DA ESPANHA:</label> mediterrâneo, oceânico (Norte)</p>
+
+                    <p><label class="ptema">COMPOSIÇÃO DA POPULAÇÃO: </label> espanhóis (86,5%); europeus não espanhóis (5,2%); caribenhos, sul-americanos e centro-americanos (5%); outros (3,3%). (dados demográficos de 2012).</p>
+
+                    <p><label class="ptema">TERRITÓRIOS:</label> Ceuta e Melilla.</p>
+
+                    <p><label class="ptema">IDIOMAS:</label> espanhol (oficial), basco, galego e catalão.</p>
+
+                    <p><label class="ptema">DENSIDADE DEMOGRÁFICA:</label> 94,4 hab./km2 (estimativa 2015)</p>
+
+                    <p><label class="ptema">CRESCIMENTO DEMOGRÁFICO:</label> 0,4% ao ano (média entre 2010 e 2015).</p>
+
+                    <p><label class="ptema">TAXA DE ANALFABETISMO:</label> 2,2% (ano de 2013).</p>
+
+
+
+                    <p><label class="ptema">RELIGIÃO:</label> cristianismo 90,1% (católicos 92,3%, outros 1,8%, dupla filiação 1%, sem filiação 3%), agnoscismo e ateísmo 8,1%, outros 0,2%, islamismo 1,6% (dados de 2010).</p>
+
+                    <p><label class="ptema">Produtos Agrícolas:</label> trigo, beterraba, legumes e verduras, frutas cítricas, uva, azeitona e cevada.</p>
+
+                    <p><label class="ptema">Pecuária:</label> bovinos, suínos, ovinos, aves.</p>
+
+                    <p><label class="ptema">Mineração:</label> carvão, gás natural, gipsita.</p>
+
+                    <p><label class="ptema">Indústria:</label> automobilística, naval, química, siderúrgica (aço), têxtil e calçados.</p>
+
+                    <p><label class="ptema">PIB (nominal): </label>US$ 1,199 trilhão (referência: ano de 2015)</p>
+
+                    <p><label class="ptema">RENDA PER CAPITA: </label>US$ 25.828 (referência: ano de 2015).</p>
+
+                    <p><label class="ptema">IDH: </label>0,876 (Pnud 2014) - desenvolvimento humano muito alto</p>
+
+                    <p><label class="ptema">RELAÇÕES INTERNACIONAIS:</label>
+
+                        Banco Mundial, FMI, OCDE, OMC, União Europeia, ONU e OTAN.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <div id="EUA" style="display:none;">
+
+            <div class="panel-default panel">
+                <div class="panel-heading center"><h3 class="panel-title"> ESTADOS UNIDOS DA AMÉRICA</h3></div>
+                <div class="panel-body">
+                    <img class="img-thumbnail" style="width: 25%" src="app/img/EUA.png"/>
+                    <p class="col-md-6 col-xs-8 ">
+                        Estados Unidos da América é um país localizado no continente americano, mais precisamente na América do Norte. O nome desse país é também expresso a partir de siglas como USA, US e EUA. Os Estados Unidos são divididos em 50 Estados.</p></div></div>
+
+            <div class="panel-info panel">
+                <div class="panel-heading center"><h2 class="panel-title"> DADOS PRINCIPAIS</h2></div>
+                <div class="panel-body">
+                    <div class="col-md-6 col-xs-6">
+
+                        <p><label class="ptema">Área:</label> 9.372.614 km²</p>
+
+                        <p><label class="ptema">Capital:</label> Washington DC</p>
+
+                        <p><label class="ptema">População:</label>322,3 milhões de habitantes (estimativa 2016)</p>
+
+                        <p><label class="ptema">Moeda:</label> dólar norte-americano ( USD )</p>
+
+                        <p><label class="ptema">Nome Oficial:</label> Estados Unidos da América (United States of America).</p>
+
+                        <p><label class="ptema">Nacionalidade:</label> norte-americana ou estadunidense</p>
+
+                        <p><label class="ptema">Data Nacional:</label> 4 de julho (Dia da Independência dos Estados Unidos).</p>
+
+                        <p><label class="ptema">Hino: </label>HINO DOS ESTADOS UNIDOS</p>
+
+                        <p><label class="ptema">Presidente:</label> Donald Trump</p>
+
+
+
+                        <p><label class="ptema">Mapa:</label> Mapa dos Estados Unidos</p>
+
+                        <p><label class="ptema">Divisão Administrativa:</label> 50 estados e uma capital federal (Washington DC)</p>
+
+                        <p><label class="ptema">Localização:</label> centro da América do Norte</p>
+
+                        <p><label class="ptema">Fuso Horário: </label> - 2 horas em relação à Brasília</p>
+
+                        <p><label class="ptema">Clima dos Estados Unidos:</label> temperado continental (L), subtropical (SE), de montanha (centro e Montanhas Rochosas), árido tropical (SO), mediterrâneo (costa O), árido frio (NO).
+
+                        <p><label class="ptema">Composição da População (por raça/etnia):</label> brancos (77,7%); afro-americanos (13,2%); asiáticos (5,3%), indígenas americanos e nativos do Alasca (1,2%); nativos do Havaí e outras ilhas do Pacífico (0,2%); duas ou mais raças (2,4%). (estimativa de julho de 2014)</p>
+
+                        <p><label class="ptema">Densidade Demográfica:</label> 34,1 hab./km2. (referência: 2015)</p>
+
+                        <p><label class="ptema">Crescimento Demográfico:</label> 0,8% por ano (média entre 2010 e 2015)</p>
+
+
+
+
+
+
+
+
+
+
+                        <p><label class="ptema">Idioma: </label>inglês (oficial).</p>
+
+                        <p><label class="ptema">Religião: </label>Protestantes 51,1%; católicos 23,8%; mórmons 1,7%; outros cristãos 1,9%;  judeus 1,7%; budistas 0,7%; muçulmanos 0,6%, outros não especificados 2,6%;  não afiliados 12%; nenhum 4% (estimativa ano de 2014)</p>
+
+                        <p><label class="ptema">Taxa de Analfabetismo: </label>0,5% (estimativa 2014).</p>
+
+                        <p><label class="ptema">IDH:</label> 0,915 (Pnud 2014) - desenvolvimento humano muito elevado</p>
+
+                        <p><label class="ptema">Gini:</label> 38.0 (ano de 2013) – médio</p>
+
+
+
+                        <p><label class="ptema">Produtos Agrícolas: </label>tabaco, milho, soja, sorgo, batata, beterraba, trigo, outros cereais.</p>
+
+                        <p><label class="ptema">Pecuária: </label>bovinos, suínos, aves.</p>
+
+                        <p><label class="ptema">Mineração: </label>petróleo, gás natural, carvão, minério de ferro, minério de cobre, alumina, prata, urânio.</p>
+
+                        <p><label class="ptema">Indústria:</label> equipamentos de transporte, alimentícia, máquinas, química, metalúrgica, gráfica e editorial.</p>
+
+                        <p><label class="ptema">Renda per capita (PIB per capita):</label> US$ 55.327 (ano de 2015).</p>
+
+                        <p><label class="ptema">PIB:</label>US$ 17,937 trilhões (ano de 2015)</p>
+
+                        <p><label class="ptema">Crescimento do PIB em 2015:</label> 2,4%</p>
+
+                        <p><label class="ptema">Crescimento do PIB em 2016:</label> 1,1% no 1º trimestre</p>
+
+                        <p><label class="ptema">Taxa de Desemprego:</label> 5% (dezembro de 2015)</p>
+
+                        <p><label class="ptema">RELAÇÕES EXTERIORES:</label>
+
+                            ONU (Organização das Nações Unidas), FMI (Fundo Monetário Internacional), Banco Mundial, OMC (Organização Mundial do Comércio), G-8, OEA (Organização dos Estados Americanos), Nafta (Tratado Norte-Americano de Livre Comércio), OCDE (Organização de Cooperação e de Desenvolvimento Econômicos), OTAN (Organização do Tratado do Atlântico Norte).</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div id="Inglaterra" style="display:none;">
+
+            <div class="panel-default panel">
+                <div class="panel-heading center" ><h3 class="panel-title"> INGLATERRA</h3></div>
+                <div class="panel-body" style="">
+                    <img class="img-thumbnail" style="width: 25%" src="app/img/Inglaterra.png"/>
+                    <p class="col-md-6 col-xs-8 ">
+                        A Inglaterra é uma das nações constituintes do Reino Unido. O país faz fronteira com a Escócia ao norte e com o País de Gales a oeste; o Mar da Irlanda está a noroeste, o Mar Celta está a sudoeste, enquanto o Mar do Norte está a leste e o Canal da Mancha, ao sul, a separa da Europa continental. A maior parte da Inglaterra compreende a parte central e sul da ilha da Grã-Bretanha, no Atlântico Norte. O país também inclui mais de 100 ilhas menores, como as Ilhas Scilly e a Ilha de Wight.</p></div></div>
+
+            <div class="panel-info panel">
+                <div class="panel-heading center"><h2 class="panel-title"> DADOS PRINCIPAIS</h2></div>
+                <div class="panel-body">
+                    <div class="col-md-6 col-xs-6">
+
+                        <p><label class="ptema">Área:</label> 130.395 km²</p>
+
+                        <p><label class="ptema">Capital:</label> Londres</p>
+
+                        <p><label class="ptema">População: </label>54,2 milhões (estimativa 2014)</p>
+
+                        <p><label class="ptema">Densidade demográfica:</label> 415 hab/km2 (ano de 2014)</p>
+
+                        <p><label class="ptema">Nome Oficial:  </label>Inglaterra</p>
+
+                        <p><label class="ptema">Nacionalidade:</label> inglesa</p>
+
+                        <p><label class="ptema">Governo:</label> Monarquia Parlamentarista</p>
+
+                        <p><label class="ptema">Divisão administrativa: </label>regiões, condados, distritos e paróquias</p>
+
+
+
+                        <p><label class="ptema">Localização:</label> Europa</p>
+
+                        <p><label class="ptema">Cidades Principais:</label> Londres, Birmingham, Liverpool, Manchester, Leeds, Southampton e Sheffield, York.</p>
+                        </p>
+
+                        <p><label class="ptema">Clima:</label> temperado oceânico</p>
+
+                        <p><label class="ptema">Temperatura média anual:</label> 13ºC</p>
+
+
+
+                        <p><label class="ptema">Idioma:</label> inglês (oficial)</p>
+
+                        <p><label class="ptema">Religião:</label> cristianismo 80% , islamismo 11%, sikhismo 4%, hinduísmo 2%, judaísmo 1%, outras 2%</p>
+
+                        <p><label class="ptema">IDH (Índice de Desenvolvimento Humano):</label> 0,940 (padrão elevado)</p>
+
+
+
+                        <p><label class="ptema">PIB (Produto Interno Bruto):</label> US$ 1,8 trilhões (estimativa 2013)</p>
+
+                        <p><label class="ptema">Renda per Capita: </label>US$ 37.000 (estimativa 2013)</p>
+
+                        <p><label class="ptema">Principais atividades econômicas: </label>indústria, finanças, turismo e comércio exterior.</p>
+
+                        <p><label class="ptema">Principais produtos exportados:</label> produtos químicos, automóveis, têxteis, aeronaves, produtos de metal, máquinas.</p>
+
+                        <p><label class="ptema">Principais produtos agrícolas produzidos:</label> cereais, trigo, aveia, centeio.</p>
+
+                        <p><label class="ptema">Moeda:</label> libra esterlina</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Mexico" style="display:none;">
+
+            <div class="panel-default panel">
+                <div class="panel-heading center"><h3 class="panel-title"> México</h3></div>
+                <div class="panel-body">
+                    <img class="img-thumbnail" style="width: 25%" src="app/img/México.png" alt="México" />
+                    <p class="col-md-6 col-xs-8 ">
+                        O México, oficialmente Estados Unidos Mexicanos, localiza-se na América do Norte. Ele faz fronteira com os Estados Unidos da América ao norte e com a Guatemala e Belize ao sul. É banhado pelo Golfo do México, pelo Mar do Caribe e pelo Oceano Pacífico e destaca-se economicamente entre os países da América Latina.</p>
+                </div>
+            </div>
+
+            <div class="panel-info panel">
+                <div class="panel-heading center"><h2 class="panel-title"> DADOS PRINCIPAIS</h2></div>
+                <div class="panel-body">
+                    <p><label>ÁREA: </label> 1.972.547 km²</p>
+                    <p><label>CAPITAL: </label> Cidade do México</p>
+                    <p><label>POPULAÇÃO: </label> 124,1 milhões de habitantes (estimativa 2016)</p>
+                    <p><label>MOEDA: </label>  peso mexicano</p>
+                    <p><label>NOME OFICIAL: </label> ESTADOS UNIDOS MEXICANOS</p>
+                    <p><label>NACIONALIDADE: </label> mexicana</p>
+                    <p><label>DATA NACIONAL: </label> 5 de fevereiro (Dia da Constituição); 16 de setembro (Independência); 20 de novembro (aniversário da Revolução). </p>
+                    <p><label>PRESIDENTE: </label> Enrique Peña Nieto (desde 1 de dezembro de 2012). </p>
+                    <h5 class="center">GEOGRAFIA DO MÉXICO</h5>
+                    <p><label>LOCALIZAÇÃO: </label> sul da América do Norte</p>
+                    <p><label>FUSO HORÁRIO: </label>  - 3 horas em relação à Brasília</p>
+                    <p><label>CLIMA: </label> tropical (maior parte), árido tropical (N), de montanhas (região montanhosa do centro).</p>
+                    <p><label>CIDADES PRINCIPAIS: </label> Cidade do México; Guadalajara, Netzahualcóyotl, Puebla de Zaragoza, Monterrey, León, Juárez, Acapulco, Mérida, San Luis Potosi, Ciudad Victoria.</p>
+                    <p><label>COMPOSIÇÃO DA POPULAÇÃO: </label> eurameríndios 59%, ameríndios 29,5%, europeus ibéricos 9,5%, outros 2% (estimativa 2015). </p>
+                    <p><label>IDIOMAS: </label> espanhol (oficial) línguas regionais (principal: náhuatl). </p>
+                    <p><label>RELIGIÃO: </label> cristianismo 95,4% (católicos 88%, outros 11% - dupla filiação 3,5%); agnosticismo e ateísmo 2,9%; outras 1,7% (dados de 2013) </p>
+                    <p><label>DENSIDADE DEMOGRÁFICA: </label> 62,91 hab./km2. (Ano de 2014) </p>
+                    <p><label>CRESCIMENTO DEMOGRÁFICO: </label> 1,2% ao ano (média entre 2010 e 2015)</p>
+                    <p><label>EXPECTATIVA DE VIDA: </label> 76,8 anos (Pnud 2014) </p>
+                    <p><label>TAXA DE ANALFABETISMO: </label> 6,5% (ano de 2014)</p>
+                    <p><label>IDH: </label> 0,756 (Pnud 2014) - desenvolvimento humano elevado Gini (2008):  51,6 </p>
+                    <h5 class="center">ECONOMIA DO MÉXICO</h5>
+                    <p><label>Produtos Agrícolas: </label> café, algodão em pluma, cana-de-açúcar, tomate, milho, trigo, sorgo, feijão, batata, frutas cítricas</p>
+                    <p><label>Pecuária: </label> bovinos, suínos, equinos, aves.</p>
+                    <p><label>Mineração: </label> petróleo, gás natural, sal, prata, zinco, cobre.</p>
+                    <p><label>Indústria: </label> automobilística, alimentícia, bebidas, siderúrgica, química, máquinas (elétricas), extração e refino de petróleo.</p>
+                    <p><label>PIB (nominal): </label> US$ 1,144 trilhão (ano de 2015)</p>
+                    <p><label>PIB per capita: </label> US$ 9.010 (ano de 2015)</p>
+                </div>
+            </div>
+        </div>
+        <div id="NovaZelandia" style="display:none;">
+
+            <div class="panel-default panel">
+                <div class="panel-heading center"><h3 class="panel-title"> Nova Zelândia</h3></div>
+                <div class="panel-body">
+                    <img class="img-thumbnail" style="width: 25%" src="app/img/NovaZelândia.png"/>
+                    <p class="col-md-6 col-xs-8 ">
+                        Nova Zelândia é um país insular, oficialmente pertencente à Oceania, no sudoeste do Oceano Pacífico, formado por duas massas de terra principais e por numerosas ilhas menores, sendo as mais notáveis as ilhas Stewart e Chatham.</p>
+                </div>
+            </div>
+
+            <div class="panel-info panel">
+                <div class="panel-heading center"><h2 class="panel-title"> DADOS PRINCIPAIS</h2></div>
+                <div class="panel-body">
+                    <p><label>Área:</label> 270.534 km²</p>
+                    <p><label>Capital:</label> Wellington</p>
+                    <p><label>População:</label> 4,50 milhões de habitantes (estimativa 2014)</p>
+                    <p><label>Moeda:</label> Dólar da Nova Zelândia</p>
+                    <p><label>Nome Oficial:</label>  Nova Zelândia</p>
+                    <p><label>Nacionalidade:</label> neozelandesa</p>
+                    <p><label>Data Nacional:</label> 26 de setembro (Declaração da Independência)</p>
+                    <p><label>Governo:</label> Monarquia parlamentarista</p>
+                    <h5 class="center"> GEOGRAFIA</h5>
+                    <p><label>Localização:</label> região sul da Oceania</p>
+                    <p><label>Cidade Principais:</label> Auckland, Christchurch, Wellington e Hamilton.</p>
+                    <p><label>Densidade Demográfica:</label> 16,6 hab./km2</p>
+                    <p><label>Fuso Horário:</label> + 15h</p>
+                    <p><label>Territórios:</label> Toquelau, Ilhas Cook e Niue.</p>
+                    <p><label>Clima:</label> temperado</p>
+                    <h5 class="center"> DADOS SOCIAIS E CULTURAIS</h5>
+                    <p><label>População:</label> europeus bretões 85%, maoris 11%, samoanos e ilhéus do Pacífico 4%</p>
+                    <p><label>Idioma:</label> inglês (oficial) e maori</p>
+                    <p><label>Religião:</label> 56,3% (anglicanos 22,4%, presbiterianos 15%, católicos 14,8%, metodistas 4,1%), sem filiação 19,7%, outras religiões 24%</p>
+                    <p><label>IDH:</label> 0,915 (Pnud 2016) - índice de desenvolvimento humano muito alto.</p>
+                    <p><label>Gini:</label> 33.0 (médio) - ano de 2014</p>
+                    <p><label>Alfabetização:</label> 99,1% (ano de 2016)</p>
+
+
+                    <h5 class="center"> ECONOMIA</h5>
+                    <p><label>Produtos Agrícolas:</label> cevada, milho, trigo, kiwi, maçã, laranja, pêra, legumes e verduras.</p>
+                    <p><label>Pecuária:</label> bovinos, suínos, caprinos e aves.</p>
+                    <p><label>Mineração:</label> gás natural, carvão e petróleo.</p>
+                    <p><label>Indústria:</label> alimentos, química, gráfica, máquinas, metalurgia e equipamentos de transporte.</p>
+                    <p><label>PIB:</label> US$ 147,1 bilhões (ano de 2014)</p>
+                    <p><label>Renda per capita:</label> US$ 32.689 (ano de 2014).</p>
+
+                </div>
+            </div>
+        </div>
+        <div id="PortoRico" style="display:none;">
+
+            <div class="panel-default panel">
+                <div class="panel-heading center"><h3 class="panel-title"> Porto Rico</h3></div>
+                <div class="panel-body">
+                    <img class="img-thumbnail" style="width: 25%" src="app/img/PortoRico.png"/>
+                    <p>Porto Rico, oficialmente Estado Livre Associado de Porto Rico é um território sem personalidade jurídica dos Estados Unidos, localizado na parte oriental do mar do Caribe a leste da República Dominicana e no oeste das Ilhas Virgens.
+                       </p>
+                </div>
+            </div>
+
+            <div class="panel-info panel">
+                <div class="panel-heading center"><h2 class="panel-title"> DADOS PRINCIPAIS</h2></div>
+                <div class="panel-body">
+                    <p><label> Nome Oficial:</label> Estado Livre Associado de Porto Rico</p>
+                    <p><label> Área:</label> 9.104 km²</p>
+                    <p><label> Capital:</label> San Juan</p>
+                    <p><label> População:</label> 3,6 milhões de habitantes (estimativa 2015)</p>
+                    <p><label> Nacionalidade:</label> porto riquenha (cidadãos dos Estados Unidos da América)</p>
+                    <p><label> Governo:</label> República</p>
+                    <p><label> Divisão administrativa:</label> dividido em 78 municípios</p>
+
+                    <h5 class="center">GEOGRAFIA</h5>
+                    <p><label> Continente:</label> América Central (noroeste do Caribe)</p>
+                    <p><label> Cidades Principais:</label> San Juan (capital), Bayamón, Caguas, Carolina, Mayagüez, Ponce e Guayama.</p>
+                    <p><label> Clima:</label> tropical</p>
+                    <p><label> Temperatura Média anual:</label> 25ºC</p>
+                    <p><label> Índice Pluviométrico:</label> 1700 mm </p>
+
+                    <h5 class="center">DADOS CULTURAIS E SOCIAIS</h5>
+                    <p><label> Composição da População:</label> brancos (70,5%); mestiços (20,9%) e afrocaribenhos (8%). </p>
+                    <p><label> Idioma:</label> Espanhol e inglês</p>
+                    <p><label> Religiões principais:</label>  Católica Romana (85%), protestantes e outras (15%)</p>
+                    <p><label> IDH:</label> 0,865 - elevado (ano de 2014)</p>
+                    <p><label> Expectativa de vida:</label> 80,1 anos (ano de 2015)</p>
+
+                    <h5 class="center">ECONOMIA</h5>
+                    <p><label> PIB (Produto Interno Bruto):</label> US$ 101 bilhões (ano de 2013)</p>
+                    <p><label> PIB per capita:</label> US$ 32.060 (ano de 2013)</p>
+                    <p><label> Força de trabalho:</label> 1,4 milhão de trabalhadores (estimativa 2015)</p>
+                    <p><label> Moeda:</label> US$ (Dólar dos Estados Unidos da América)</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<footer class="page-footer green accent-4">
+    <div class="footer-copyright">
+        <div class="container">
+            <p class="center mt3">Developed by <a id="procoders" class="red-text text-accent-4" href="grupo.html"> Alcatéia</a> team © 2017</p>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="app/js/jquery3-1.js"></script>
+<script type="text/javascript" src="app/materialize/js/materialize.min.js"></script>
+<script type="text/javascript">
+    $(".button-collapse").sideNav();
+    
+
+</script>
+</body>
+</html>

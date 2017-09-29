@@ -1,0 +1,38 @@
+.padrao{
+	font-size: 11pt;
+}.title{
+	font-weight: 900;
+	color: blue;
+}
+.title2{
+	font-weight: 900;
+	color: red;
+}
+.button-unsele{
+	padding: 5px;
+	border: none;
+	font-size: 10pt;
+	background-color: transparent;
+	color: white;
+	font-weight: 800;
+}
+.button-sele{
+	padding: 5px;
+	font-size: 11pt;
+	border: none;
+	background-color: #eee;
+	color: red;
+	font-weight: 600;
+}
+.center {
+    text-align: center;
+}
+
+/*body{
+    background-image: url(../img/bg1.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: cadetblue;
+}

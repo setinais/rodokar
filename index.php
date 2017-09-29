@@ -1,5 +1,5 @@
 <?php
-	ob_start();
+	/*ob_start();
 
 	ini_set('display_errors', 1);
 	set_time_limit(0);
@@ -17,7 +17,8 @@
 	/**
 	 * Verifica se o autoload do Composer está configurado
 	 */
-	$composer_autoload = 'vendor' . DS . 'autoload.php';
+	
+	/*$composer_autoload = 'vendor' . DS . 'autoload.php';
 
 	if ( ! file_exists($composer_autoload))
 		die('Execute o comando: composer install');
@@ -33,4 +34,6 @@
 	//Inicio da aplicação
 	$app = new HXPHP\System\App(require_once APP_PATH . 'config.php');
 	$app->ActiveRecord();
-	$app->run();
+	$app->run();*/
+
+	header("Location: espanglish");
